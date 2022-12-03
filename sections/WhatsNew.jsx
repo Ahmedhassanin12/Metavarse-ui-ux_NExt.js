@@ -1,10 +1,11 @@
 'use client';
-import { useState } from 'react';
+
 import { motion } from 'framer-motion';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import styles from '../styles';
 import { fadeIn, staggerContainer, planetVariants } from '../utils/motion';
 import { newFeatures } from '../constants';
+
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
@@ -41,6 +42,6 @@ const WhatsNew = () => (
       </motion.div>
     </motion.div>
   </section>
-)
+);
 
 export default WhatsNew;

@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { StartSteps, TitleText, TypingText } from '../components';
 import styles from '../styles';
